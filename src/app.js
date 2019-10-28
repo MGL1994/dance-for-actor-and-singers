@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import { HashRouter, Route, Switch } from 'react-router-dom'
 
 import Navbar from './components/common/Navbar'
+import Footer from './components/common/Footer'
 
 import Home from './components/pages/Home'
 
@@ -17,6 +18,7 @@ class App extends React.Component {
         <Switch>
           <Route path="/" component={Home} />
         </Switch>
+        <Footer />
       </HashRouter>
     )
   }
