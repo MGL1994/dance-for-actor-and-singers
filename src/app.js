@@ -6,6 +6,8 @@ import Navbar from './components/common/Navbar'
 import Footer from './components/common/Footer'
 
 import Home from './components/pages/Home'
+import About from './components/pages/About'
+import Classes from './components/pages/Classes'
 
 import './style.scss'
 
@@ -16,7 +18,9 @@ class App extends React.Component {
       <HashRouter>
         <Navbar />
         <Switch>
-          <Route path="/" component={Home} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/classes" component={Classes} />
         </Switch>
         <Footer />
       </HashRouter>
