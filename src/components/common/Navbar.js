@@ -38,6 +38,7 @@ class Navbar extends React.Component {
             <div className="navbar-start">
               <Link to="/about" className="navbar-item">About</Link>
               <Link to="/classes" className="navbar-item">Classes</Link>
+              <Link to="/gallery" className="navbar-item">Gallery</Link>
             </div>
           </div>
         </div>
