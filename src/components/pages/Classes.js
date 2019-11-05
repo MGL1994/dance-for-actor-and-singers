@@ -13,8 +13,6 @@ const Classes = () => {
     <section id="classes" className="hero is-large">
       <div className="hero-body">
         <div className="container">
-          <h1 className="title has-text-centered">Classes</h1>
-
           <Map
             style="mapbox://styles/mapbox/streets-v9"
             zoom={zoom}
@@ -23,7 +21,6 @@ const Classes = () => {
               width: '100%'
             }}>
           </Map>
-
         </div>
       </div>
     </section>
